@@ -11,6 +11,8 @@ Requires-Dist: skyfield
 Requires-Dist: timezonefinder
 Requires-Dist: uvicorn
 Requires-Dist: opencc-python-reimplemented
+Requires-Dist: ephem
+Requires-Dist: tzdata
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: pytest-asyncio; extra == "dev"

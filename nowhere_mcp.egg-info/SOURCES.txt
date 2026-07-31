@@ -46,6 +46,7 @@ nowhere/tests/test_humanities.py
 nowhere/tests/test_humanities_await.py
 nowhere/tests/test_hydrology.py
 nowhere/tests/test_knowledge.py
+nowhere/tests/test_latest_regressions.py
 nowhere/tests/test_listen.py
 nowhere/tests/test_localcolor.py
 nowhere/tests/test_marks.py
