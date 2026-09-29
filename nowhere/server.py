@@ -895,7 +895,7 @@ async def _open_door_locked(to: str | None = None, resume: bool = False) -> dict
     if h_card:
         _state.seen_humanities.add(h_card["key"])
         placememory.save_seen_humanities(_state.seen_humanities)
-        excerpt = h_card["text"][:60] + ("..." if len(h_card["text"]) > 60 else "")
+        excerpt = h_card["text"]  # 整句显示，不截断
         prose += f"你落在了{h_card['place']}附近。这里有过——{excerpt}"
 
     _state.last_text = prose
